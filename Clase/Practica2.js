@@ -26,10 +26,10 @@ function rango (name, calificaciones)
 {
     let promedio = 0;
     console.log(`Alumn@: ${name}`);
-    for (i=0;i<calificaciones.length;i++)
+    for (let i=0;i<calificaciones.length;i++)
     {
         promedio = promedio + calificaciones[i];
-        console.log(`Calificacion ${i+1}: ${calificaciones[i]}`);
+        console.log(`Calificación ${i+1}: ${calificaciones[i]}`);
     }
     promedio = promedio / calificaciones.length;
 
